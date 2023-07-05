@@ -1,6 +1,6 @@
 import os
 from typing import Any, Dict, List
-
+from typing import Set
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
